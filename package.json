@@ -1,0 +1,27 @@
+{
+  "name": "testing-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "Pratiibh Bassi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "mongodb-memory-server": "^5.1.5",
+    "mongoose": "^5.6.4",
+    "supertest": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratiibh-401-advanced-javascript/lab-07-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratiibh-401-advanced-javascript/lab-07-middleware/issues"
+  },
+  "homepage": "https://github.com/pratiibh-401-advanced-javascript/lab-07-middleware#readme",
+  "description": ""
+}
