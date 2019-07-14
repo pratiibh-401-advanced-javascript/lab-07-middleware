@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = (request, response, next) => {
-  request.requestTime = new Date();
+  console.log(request.path, request.method, request.requestTime);
   next();
 };
