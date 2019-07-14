@@ -1,27 +1,48 @@
-# LAB - 03
+# LAB - 07
 
-## Inheritance Lab 03
+## LAB: Express
 
-### Author: Pratiibh Bassi
+### Pratiibh Bassi
 
 ### Links and Resources
-* [submission PR](https://github.com/pratiibh-401-advanced-javascript/lab-03/pull/1)
-* [travis](https://www.travis-ci.com/pratiibh-401-advanced-javascript/lab-03)
+* [submission PR](http://xyz.com)
+
+
+#### Documentation
+* N/A for this lab
 
 ### Modules
-#### `edit-file.js` - Reads and writes files, shows in terminal window
+#### `server.js`
+#### `routes.js`
+
 ##### Exported Values and Methods
-#### `fs.js`
-#### `reader.js`
+#### `consoleLogger.js`
+#### `error.js`
+#### `errorOnNext.js`
+#### `notFound.js`
+#### `requestTime.js`
+#### `squareValue.js`
+
+###### `foo(thing) -> string`
+Usage Notes or examples
+
+###### `bar(array) -> array`
+Usage Notes or examples
 
 ### Setup
+#### `.env` requirements
+* `PORT` - 8080 (set in server.js)
 
 #### Running the app
-* `node edit-file.js` - This will read and write to the tests.txt file
-* `npm test` - This will run the tests
+* `nodemon`
+* `http :8080/a`
+* `http :8080/b`
+* `http :8080/c`
+* `http :8080/d`
+
   
 #### Tests
-* How do you run tests? - Run npm test and write the correct test
+* TBA
 
-
-
+#### UML
+* Coming soon
